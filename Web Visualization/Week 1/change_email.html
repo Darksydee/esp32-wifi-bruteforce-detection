@@ -1,0 +1,48 @@
+    <!DOCTYPE html>
+    <html lang="id">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Change Email - Dashboard Wi-Fi Bruteforce Monitor</title>
+        <link rel="stylesheet" href="style_dashboard/style_accountmanage.css">
+    </head>
+    <body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <h2>Dashboard Wi-Fi Bruteforce Monitor</h2>
+        <div class="nav-links">
+            <button class="nav-btn" onclick="location.href='dashboard.html'"><span>🏠</span> Home</button>
+            <button class="nav-btn" onclick="location.href='sort_by.html'"><span>↕️</span> Sort by</button>
+            <button class="nav-btn" onclick="location.href='settings.html'"><span>⚙️</span> Settings</button>
+            <button class="nav-btn profile active" onclick="location.href='account_manager.html'">👤</button>
+        </div>
+    </div>
+
+        <!-- Change Email Section -->
+        <div class="account-container">
+            <h3>Change Email</h3>
+
+            <div class="account-details">
+                <div class="field">
+                    <label>Enter Old Email</label>
+                    <input type="email" class="input-field" placeholder="Enter Old Email">
+                </div>
+                <div class="field">
+                    <label>Enter New Email</label>
+                    <input type="email" class="input-field" placeholder="Enter New Email">
+                </div>
+                <div class="field">
+                    <label>Confirm New Email</label>
+                    <input type="email" class="input-field" placeholder="Confirm New Email">
+                </div>
+            </div>
+
+            <div class="button-group">
+                <button class="btn confirm">Change</button>
+                <button class="btn cancel" onclick="location.href='account_manager.html'">Cancel</button>
+            </div>
+        </div>
+
+    </body>
+    </html>

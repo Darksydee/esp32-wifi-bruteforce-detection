@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change Name - Dashboard Wi-Fi Bruteforce Monitor</title>
+    <link rel="stylesheet" href="style_dashboard/style_accountmanage.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <h2>Dashboard Wi-Fi Bruteforce Monitor</h2>
+    <div class="nav-links">
+        <button class="nav-btn" onclick="location.href='dashboard.html'"><span>🏠</span> Home</button>
+        <button class="nav-btn" onclick="location.href='sort_by.html'"><span>↕️</span> Sort by</button>
+        <button class="nav-btn" onclick="location.href='settings.html'"><span>⚙️</span> Settings</button>
+        <button class="nav-btn profile active" onclick="location.href='account_manager.html'">👤</button>
+    </div>
+</div>
+
+    <!-- Change Name Section -->
+    <div class="account-container">
+        <h3>Change Name</h3>
+
+        <div class="account-details">
+            <div class="field">
+                <label>Enter New Name</label>
+                <input type="text" class="input-field" placeholder="Enter New Name">
+            </div>
+        </div>
+
+        <div class="button-group">
+            <button class="btn confirm">Change</button>
+            <button class="btn cancel" onclick="location.href='account_manager.html'">Cancel</button>
+        </div>
+    </div>
+
+</body>
+</html>

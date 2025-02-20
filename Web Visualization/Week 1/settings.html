@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Wi-Fi Bruteforce Monitor</title>
+    <link rel="stylesheet" href="style_dashboard/style_settings.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+    <h3>Dashboard Wi-Fi Bruteforce Monitor</h3>
+    <div class="nav-links">
+        <button class="nav-btn" onclick="location.href='dashboard.html'"><span>🏠</span> Home</button>
+        <button class="nav-btn" onclick="location.href='sort_by.html'"><span>↕️</span> Sort by</button>
+        <button class="nav-btn active" onclick="location.href='settings.html'"><span>⚙️</span> Settings</button>
+        <button class="nav-btn profile" onclick="location.href='account_manager.html'">👤</button>
+    </div>
+</div>
+
+
+    <!-- Settings Section -->
+    <div class="settings-container">
+        <h3>Settings</h3>
+
+        <div class="section">
+            <h4>Status Koneksi ke ESP32</h4>
+            <p class="status connected">Connected</p>
+            <button class="btn disconnect">Disconnect</button>
+            <button class="btn link" onclick="location.href='connect_to_esp32.html'">Link to ESP32</button>
+        </div>
+
+        <div class="section">
+            <h4>Link ke ESP32 (Local)</h4>
+            <button class="btn link">Go to Landing Page</button>
+        </div>
+
+        <div class="section">
+            <h4>Push Notification</h4>
+            <table>
+                <tr>
+                    <th>Platform</th>
+                    <th>Status</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>WhatsApp</td>
+                    <td class="status not-connected">Not Connected</td>
+                    <td><button class="btn link" onclick="location.href='whatsapp-link.html'">Link</button></td>
+                </tr>
+                <tr>
+                    <td>Discord</td>
+                    <td class="status not-connected">Not Connected</td>
+                    <td><button class="btn link" onclick="location.href='Connect_discord.html'">Link</button></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td class="status not-connected">Not Connected</td>
+                    <td><button class="btn link" onclick="location.href='Connect_email.html'">Link</button></td>
+                </tr>
+                <tr>
+                    <td>Browser Notification</td>
+                    <td class="status not-connected">Not Connected</td>
+                    <td><button class="btn link" onclick="location.href='Connect_email.html'">Link</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>
