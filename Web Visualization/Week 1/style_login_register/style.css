@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Wrapper dengan border putih */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: auto;
+    background: url('../Assets/Picture/router-bg.jpg') no-repeat center center/cover;
+    border-right: 300px solid white;
+    position: relative;
+}
+
+.container {
+    width: 500px; /* Ukuran container tetap */
+    height: auto;
+    position: absolute;
+    right: -10vw; /* Jarak dari kanan tetap proporsional */
+    top: 30vh; /* Jarak dari atas tetap proporsional */
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 36px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: block;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn-login {
+    background-color: #17a2b8;
+    margin-bottom: 10px;
+}
+
+.btn-register {
+    background-color: #004080;
+}
+
+.btn-login {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 30px; /* Memberi jarak ke atas */
+}
+
+.btn-login:hover {
+    background-color: #0056b3;
+}
