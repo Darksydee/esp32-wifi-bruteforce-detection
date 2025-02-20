@@ -1,0 +1,196 @@
+/* Reset dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2DA8D8;
+    padding: 10px 20px;
+    color:  rgb(255, 255, 255);
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-btn {
+    background: #ccc;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-btn.profile {
+    background: none;
+    font-size: 20px;
+}
+
+/* Account Manager Container */
+.account-container {
+    padding: 20px;
+}
+
+h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.profile-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.profile-box {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+/* Account Details */
+.account-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+}
+
+.input-placeholder {
+    background: #ccc;
+    height: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.btn.cancel.profile {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+    padding: 10px 20px;
+}
+
+
+
+/* Button Group */
+.button-group {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.email {
+    background: #008B8B;
+    color: white;
+}
+
+.password {
+    background: #228B22;
+    color: white;
+}
+
+.name {
+    background: #1E90FF;
+    color: white;
+}
+
+
+/* Input Field Styling (for change Email)*/
+.input-field {
+    width: 300px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Button Styles */
+.confirm {
+    background: #008B8B;
+    color: white;
+}
+
+.cancel {
+    background: #D9534F;
+    color: white;
+}
+
+/* Input Field Styling (For change Password)*/
+.input-field {
+    width: 300px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Button Styles */
+.confirm {
+    background: #008B8B;
+    color: white;
+}
+
+.cancel {
+    background: #D9534F;
+    color: white;
+}
+
+
+/* Input Field Styling (For change name)*/ 
+.input-field {
+    width: 300px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Button Styles */
+.confirm {
+    background: #008B8B;
+    color: white;
+}
+
+.cancel {
+    background: #D9534F;
+    color: white;
+}
