@@ -1,0 +1,161 @@
+/* Reset dasar */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #2DA8D8;
+    padding: 15px 20px;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+}
+
+.nav-btn {
+    background: #e0e0e0;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.nav-btn:hover {
+    background: #d6d6d6;
+}
+
+.nav-btn.profile {
+    background: none;
+    font-size: 18px;
+}
+
+/* Container utama */
+.account-container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Profil Box */
+.profile-card {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.profile-box {
+    background: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.profile-box h3 {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.profile-box p {
+    color: #555;
+    font-size: 14px;
+}
+
+/* Avatar */
+.profile-image {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+/* Account Manager */
+h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.account-details {
+    background: white;
+    padding: 20px;
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 320px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.account-details p {
+    font-size: 16px;
+    margin: 8px 0;
+}
+
+/* Button Group */
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.email {
+    background: #008B8B;
+    color: white;
+}
+
+.password {
+    background: #228B22;
+    color: white;
+}
+
+.name {
+    background: #1E90FF;
+    color: white;
+}
+
+/* Logout Button */
+.btn.logout {
+    background: #D9534F;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+/* Input Styling */
+.input-field {
+    width: 100%;
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+}
